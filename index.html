@@ -1,0 +1,100 @@
+<html>
+
+<head>
+  <title>Placeholder</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&family=Raleway:wght@300&family=Righteous&display=swap');
+</style>
+
+<body>
+  <nav class="navbar">
+    <div><img id="logo-img" src="assets/earth-logo.png" /></div>
+    <ul class="navbar-ul">
+      <li class="navbar-li"><a class="no-it-a" id="navbar-a" href="">HOME</a></li>
+      <li class="navbar-li-impacts" class="navbar-li"><a class="navbar-a-impacts" id="navbar-a" href="#">IMPACTS <i class="fas fa-caret-down"></i></a>
+
+        <ul class="dropdown-ul">
+            <li class="dropdown-li"><a class="dropdown-a" href="#">OCEAN ACIDIF.</a></li>
+            <li class="dropdown-li"><a class="dropdown-a" href="#">WEATHER</a></li>
+            <li class="dropdown-li"><a class="dropdown-a" href="#">GLOBAL WARMING</a></li>
+        </ul>
+      </li>
+      <li class="navbar-li"><a class="no-it-a" id="navbar-a" href="">SOLUTIONS</a></li>
+    </ul>
+  </nav>
+
+  <!-- title-->
+  <hr id="hr-tag">
+  <h1 class="title-index">CLIMATE CHANGE</h1>
+  <hr id="hr-tag">
+
+  <div id="slider">
+    <figure>
+      <img src="assets/one-world-img.jpg" alt="">
+      <img src="assets/forest-2.jpg" alt="">
+      <img src="assets/fire.jpg" alt="">
+      <img src="assets/smoke-pump.jpg" alt="">
+      <img src="assets/one-world-img.jpg" alt="">
+    </figure>
+  </div>
+
+</body>
+
+<style>
+  #slider{
+    overflow: hidden;
+  }
+  #slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+  }
+  #slider figure img{
+    float: left;
+    width: 20%;
+  }
+
+
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    20%{
+      left: 0;
+    }
+    25%{
+      left: -100%;
+    }
+    45%{
+      left:-100%;
+    }
+    50%{
+      left: -200%;
+    }
+    70%{
+      left: -200%;
+    }
+    75%{
+      left: -300%;
+    }
+    95%{
+      left: -300%;
+    }
+    100%{
+      left: -400%;
+    }
+  }
+
+</style>
+
+
+</html>

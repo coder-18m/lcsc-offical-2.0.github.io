@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: white;
+}
+#logo-img{
+	height: 6vh;
+}
+.navbar{
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar-ul{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.navbar-li{
+	list-style: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+#navbar-a{
+	box-shadow: 6px 6px gray;
+	padding: 6px;
+  color: black;
+	border: 3px solid black;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+	text-decoration: none;
+}
+.no-it-a:hover{
+  font-style: italic;
+}
+
+.dropdown-ul{
+  display: none;
+  background-color: white;
+  position: absolute;
+  margin-top: 10px;
+
+}
+
+.dropdown-li{
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.navbar-li-impacts:hover .dropdown-ul{
+  display: block;
+}
+
+.dropdown-li:hover{
+background-color: #DBD6D4;
+}
+.navbar-li-impacts{
+  list-style: none;
+}
+
+.dropdown-a{
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#hr-tag{
+	margin-top: 8px;
+	height: 6px;
+  background: black;
+}
+.title-index{
+	text-align: center;
+	font-size: 60px;
+	letter-spacing: 3px;
+	font-family: 'Righteous', cursive;
+	font-weight: bolder;
+}

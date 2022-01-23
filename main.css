@@ -87,3 +87,50 @@ background-color: #DBD6D4;
 	font-family: 'Righteous', cursive;
 	font-weight: bolder;
 }
+.what-is-h1{
+	margin-top: 674px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+
+}
+.what-might-h1{
+	margin-top: 20px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+#what-is-p, #what-might-p{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+#what-might-p{
+	margin-bottom: 40px;
+}
+#factBtn {
+  padding: 10px;
+  margin: 20px;
+  border-style: none;
+  border-radius: 5%;
+  background-color: rgb(173, 136, 136);
+  color: white;
+  font-size: 2em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.oceanFact{
+	padding: 20px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	background-color: #1A4666;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 30px;
+	width: 60%;
+	border-radius: 5%;
+}

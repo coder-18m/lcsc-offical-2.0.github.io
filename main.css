@@ -307,6 +307,7 @@ background-color: #DBD6D4;
 /*SOLUTIONS STYLING */
 
 .gallery{
+	margin-bottom: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;

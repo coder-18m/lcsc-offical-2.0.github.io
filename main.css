@@ -489,6 +489,14 @@ figcaption{
 		width:610px;
 		height:367px;
 	}
+	@media (min-width:376px) {
+			.nothin-here{
+				width: 30%;
+				margin-left: 35%;
+				margin-right: 35%;
+			}
+	  }
+	  
 
 
 }
@@ -601,17 +609,4 @@ figcaption{
 	}
 }
 /* change when viewport is smaller than 376 */
-}
-@media (min-width:376px) {
-  .nothin-here{
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 40px;
-  }
-  #nothin-upd{
-
-    margin-left: 80px;
-    margin-right: 80px;
-  }
 }

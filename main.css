@@ -428,6 +428,7 @@ figcaption{
 
 .olymp-container{
 	margin-top: 30px;
+	margin-bottom: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -443,7 +444,7 @@ figcaption{
 }
 .pdf{
 	border: 3px solid black;
-		margin-bottom: 20px;
+
 }
 
 .powerpoint-title, .pdf-title{

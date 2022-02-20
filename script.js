@@ -1,5 +1,6 @@
 var factList = ['Rest in peace, boiling water, you will be mist',"Two chemists go into a bar. The first one says: I think I'll have an H2O. The second one says: I think I'll have an H2O too — and he died.",
-'I had to make these bad chemistry jokes because all the good ones Argon.', "He threw sodium chloride at me! That\'s a salt!", 'No matter how popular they get, antibiotics will never go viral']
+'I had to make these bad chemistry jokes because all the good ones Argon.', "He threw sodium chloride at me! That\'s a salt!", 'What do you call an acid with an attitude? A-mean-oh-acid.',
+'No matter how popular they get, antibiotics will never go viral']
 
 var fact = document.getElementById("fact");
 var factBtn = document.getElementById("factBtn");
